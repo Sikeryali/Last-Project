@@ -1,0 +1,130 @@
+body{
+    margin: 0px;
+    padding-top: 0.1px;
+    width: auto;
+    background-color: 
+    white;
+}
+.logo{
+    margin: 70px;
+    width: auto;
+
+}
+
+.search-box{
+    margin: 0px;
+    width: auto;
+}
+.textbox{
+    width: auto;
+    overflow: show;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    border-bottom: 1px solid #000000;
+
+}
+.textbox i{
+    width: auto;
+    float: left;
+    text-align: center;
+
+}
+.textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: rgb(0, 0, 0);
+}
+
+.navigation{
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(120deg, rgb(188, 196, 202), 
+    #1a0f1f);
+
+    padding: 10px;
+    
+    
+}
+.navigation > .links .link {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.navigation > .links  .link a{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.navigation > .links .link :hover{
+    transition: cubic-bezier(0.5, 0.5, 0.165, 1);
+}
+
+
+.btn {
+    display: block;
+    width: 300px;
+    height:50px;
+    border: none;
+     background: linear-gradient(120deg, rgb(188, 196, 202), #1a0f1f);
+}
+
+.Weather{
+    width: auto;
+    padding: 10px;
+    border-radius: 25px;
+    border: 5px solid linear-gradient(rgb(47, 150, 163), rgb(48,62,143));;
+    margin-left: 1px;
+    margin-top: 100px;
+    align-items: left;
+    height: 250px;
+    background : linear-gradient(rgb(47, 150, 163), rgb(48,62,143));
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items:left; 
+    font-family: sans-serif;
+    
+}
+.location-timezone{
+    
+    margin-left: 30px;
+}
+
+
+.location, .temperature{
+    height: 10vh;
+    width: 50%;
+    margin: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.temperature{
+    flex-direction:column;
+}
+.degree-section{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.degree-section span {
+    margin: 5px;
+    font-size: 30px;
+}
+.degree-section h2{
+    font-size: 20px;
+}
+.footer{
+   
+    position: absolute;
+    background-color:rgba(156, 138, 138, 0);
+     width:100%;
+    padding: 10px;
+}
+
+
